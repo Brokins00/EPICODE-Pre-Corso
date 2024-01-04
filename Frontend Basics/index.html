@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+</head>
+<body style="background-color:black; font-family: sans-serif;">
+    <form onsubmit="alert('Registrazione inviata!')" style="text-align: center; width: 500px; margin: 0 auto; color: white; background-color: grey;border-radius: 5px;padding-bottom: 20px;padding-top: 10px;">
+        <h1>Registrazione</h1>
+        <div>
+            <h4>Nome</h4>
+            <input type="text" placeholder="Inserisci il tuo nome" required/>
+        </div>
+        <div>
+            <h4>Cognome</h4>
+            <input type="text" placeholder="Inserisci il tuo cognome" required/>
+        </div>
+        <div>
+            <h4>E-mail</h4>
+            <input type="email" placeholder="Inserisci la tua e-mail" required/>
+        </div>
+        <div>
+            <h4>Password</h4>
+            <input type="password" placeholder="Inserisci la tua password" required/>
+        </div>
+        <div>
+            <h4>Data di nascita</h4>
+            <input type="date" required/>
+        </div>
+        <div>
+            <h4>Numero di Telefono</h4>
+            <input type="number" placeholder="Inserisci il tuo numero di telefono" />
+        </div>
+        <div>
+            <h4>Gusti Musicali</h4>
+            <div>
+                Pop <input type="checkbox" />
+            </div>
+            <div>
+                Rock <input type="checkbox" />
+            </div>
+            <div>
+                Classica <input type="checkbox" />
+            </div>
+        </div>
+        <div>
+            <h4>Termini e Condizioni</h4>
+            Acconsentire <input type="radio" name="termini"/> Negare <input type="radio" name="termini"/>
+        </div>
+        <div style="padding-top: 10px;">
+            <button type="submit">Invia registrazione</button>
+        </div>
+    </form>
+</body>
+</html>
