@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    margin: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.val_di_funes {
+    background-image: url('https://www.ilovevaldinon.it/wp-content/uploads/2020/02/val-di-funes-andreas-tamanini-ilovevaldinon-7.jpg');
+}
+.bolzano {
+    background-image: url('https://www.artribune.com/wp-content/uploads/2022/05/Bolzano.jpg');
+}
+.vipiteno {
+    background-image: url('https://www.vipiteno.com/media/45b3f490-0361-4c87-bbcc-ac93acd9c7f2/632_x_560/p=2/weihnachtsmarkt-sterzing-glockenweihnacht-mercatino-di-natale-vipiteno-suedtirol.jpg');
+}
+.ortisei {
+    background-image: url('https://www.val-gardena.com/fileadmin/_processed_/3/3/csm_st-ulrich-06_cd325e8dfb.jpg');
+}
+.corvara-in-badia {
+    background-image: url('https://siviaggia.it/wp-content/uploads/sites/2/2020/12/corvara-cosa-vedere.jpg');
+}
+.brunico {
+    background-image: url('https://www.italia.it/content/dam/tdh/it/interests/alto-adige/bolzano/brunico/alto-adige-brunico-escursioni-architettura-e-cultura-in-val-pusteria/media/1600X1000_alto_adige_brunico_hero.jpg');
+}
+
+.header {
+    font-family: 'Prata', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.titolo {
+    font-size: 64px;
+}
+
+.sottotitolo {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.link {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.luoghi {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+}
+
+.val_di_funes_luoghi {
+    background: linear-gradient(90deg, #35682d, #4e3b31);
+}
+.bolzano_luoghi {
+    background: linear-gradient(90deg, #4b2d00, #224600);
+}
+.vipiteno_luoghi {
+    background: linear-gradient(90deg, #4e3b31, #ffffff);
+}
+.ortisei_luoghi {
+    background: linear-gradient(90deg, #35682d, #4e3b31);
+}
+.corvara-in-badia_luoghi {
+    background: linear-gradient(90deg, #1ac500, #185c9b);
+}
+.brunico_luoghi {
+    background: linear-gradient(90deg, #c47500, #009675);
+}
+
+.elenco-luoghi {
+    list-style: none;
+    padding: 0;
+}
+
+.elenco-luoghi li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.elenco-luoghi a {
+    text-decoration: none;
+}
+
+.elenco-luoghi-val_di_funes a:visited {
+    color: #35682d;
+}
+.elenco-luoghi-bolzano a:visited {
+    color: #4b2d00;
+}
+.elenco-luoghi-vipiteno a:visited {
+    color: #4e3b31;
+}
+.elenco-luoghi-ortisei a:visited {
+    color: #35682d;
+}
+.elenco-luoghi-corvara-in-badia a:visited {
+    color: #1ac500;
+}
+.elenco-luoghi-brunico a:visited {
+    color: #c47500;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
